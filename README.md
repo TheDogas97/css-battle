@@ -1,2 +1,2 @@
 # css-battle
-My https://CSSBattle.dev answers!
+My CSSBattle.dev answers!
