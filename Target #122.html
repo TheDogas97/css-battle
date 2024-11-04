@@ -1,0 +1,87 @@
+<div id="container">
+  <div class="row">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square red"></div>
+  </div>
+  <div class="row">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+  </div>
+  <div class="row">
+    <div class="square yellow"></div>
+    <div class="square yellow"></div>
+    <div class="square"></div>
+    <div class="square red"></div>
+  </div>
+  <div class="row">
+    <div class="square yellow"></div>
+    <div class="square yellow"></div>
+    <div class="square red"></div>
+    <div class="square"></div>
+    <div class="square purple"></div>
+  </div>
+  <div class="row">
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square cyan"></div>
+    <div class="square purple"></div>
+    <div class="square purple"></div>
+  </div>
+  <div class="row">
+    <div class="square yellow"></div>
+    <div class="square cyan"></div>
+    <div class="square cyan"></div>
+    <div class="square cyan"></div>
+    <div class="square purple"></div>
+    <div class="square cyan"></div>
+  </div>
+</div>
+<style>
+  * {
+    margin: 0;
+    background: #173889;
+  }
+
+  #container {
+    width: 300;
+    height: 100vh;
+    margin: 0 50;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .row {
+    display: flex;
+    gap: 6px;
+  }
+
+  .square {
+    width: 45;
+    height: 45;
+    position: relative;
+  }
+  
+  .red {
+    background: #EE4F63;
+  }
+
+  .yellow {
+    background: #F8DA37;
+  }
+
+  .cyan {
+    background: #2CE1EA;
+  }
+
+  .purple {
+    background: #B069F7;
+  }
+</style>
