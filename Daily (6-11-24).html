@@ -1,0 +1,56 @@
+<div id="r1"></div>
+<div id="r2"></div>
+<div id="c"></div>
+<div id="r3"></div>
+<div id="r4"></div>
+
+<style>
+  * {
+    background: #0B2429;
+    margin: 0;
+  }
+
+  div {
+    background: #F3AC3C;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+  }
+
+  #r1 {
+    left: 70px;
+  }
+
+  #r2 {
+    right: 70px;
+    bottom: 100px;
+    z-index: 5;
+  }
+  
+  #r1, #r2 {
+    top: 115px;
+  }
+
+  #c {
+    background: #998235;
+    border-radius: 50%;
+    width: 70px;
+    top: 115px;
+    left: 165px;
+    z-index: 1;
+  }
+  
+  #r3 {
+    top: 50px;
+  }
+  
+  #r4 {
+    top: 180px;
+    z-index: 5;
+  }
+  
+  #r3, #r4 {
+    left: 150px;
+  }
+
+</style>
