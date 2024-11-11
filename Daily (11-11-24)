@@ -1,0 +1,15 @@
+<p><p><p><p><p><p><p><p><p>
+<style>
+  * {
+    margin: 0 auto;
+    background: #328FC1;
+  }
+  p {
+    position: relative; 
+    top: -30px;
+    width: 110px;
+    height: 40px;
+    border-radius: 50px;
+    background: #ffffff;
+  }
+</style>
